@@ -1,19 +1,19 @@
-# Random Quotes Generator
+# 🌟 Random Quotes Generator
 
-A simple web application that displays random inspirational quotes. Users can generate quotes manually or enable an auto-play feature to see new quotes every few seconds.
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Features
-- **Manual Generation**: Click the "Generate Quote" button to get a new random quote.
-- **Auto-Play**: Enable "Auto Generate" to automatically cycle through quotes every 2 seconds.
-- **Stop Feature**: Easily stop the auto-play functionality at any time.
-- **Clean UI**: Minimalist design with a focus on readability.
+A sleek, dynamic web application that delivers a daily dose of inspiration. Featuring both manual and automated generation modes, this project focuses on smooth user interaction and clean data fetching.
 
-## Technologies Used
-- HTML5
-- CSS3 (Custom Styles)
-- JavaScript (Async/Await for fetching data)
-- JSON (External quotes data source)
+## 🚀 Key Features
+- **Manual Discovery**: Generate new quotes with a single click.
+- **Auto-Play Mode**: Sit back and enjoy a continuous stream of wisdom (refreshes every 2 seconds).
+- **Responsive Design**: Optimized for all screen sizes with a minimalist aesthetic.
+- **Data-Driven**: Quotes are managed via a structured JSON source.
 
-## How to Run
-1. Clone the repository.
-2. Open `index.html` in your preferred web browser.
+## 🛠️ Installation & Usage
+1. Clone the repository: `git clone https://github.com/9gkc/random-quotes-generator.git`
+2. Open `index.html` in any modern browser.
+
+---
