@@ -1,5 +1,7 @@
 # 🌟 Random Quotes Generator
 
+> **Live demo:** [Open QuoteGen in your browser](https://9gkc.github.io/QuoteGen/)
+
 <div align="center">
   <img src="https://img.shields.io/github/last-commit/9gkc/QuoteGen?style=for-the-badge&label=Last%20Update&color=58A6FF" alt="Last Update">
   <img src="https://img.shields.io/github/stars/9gkc/QuoteGen?style=for-the-badge&color=58A6FF" alt="GitHub Stars">
