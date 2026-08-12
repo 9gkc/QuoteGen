@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project</title>
+    <title>Random Quotes Generator</title>
     <link rel="stylesheet" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,17 +12,21 @@
       rel="stylesheet" />
   </head>
   <body>
-    <h1>Random Quotes Generator</h1>
-    <div class="quotes">
-      <span class="quote-id">0</span>
-      <div class="quote-display">Quote Will Appear Here</div>
-      <div class="buttons">
-        <button class="generate">Generate Quote</button>
-        <button class="auto">Auto Generate</button>
-        <button class="stop">Stop Generate</button>
-      </div>
-    </div>
-    <div class="auto-status"></div>
+    <main>
+      <h1>Random Quotes</h1>
+      <section class="quotes" aria-labelledby="quote-heading">
+        <h2 id="quote-heading" class="visually-hidden">Current quote</h2>
+        <span class="quote-id" aria-label="Quote number">0</span>
+        <blockquote class="quote-display">Quote will appear here</blockquote>
+        <div class="buttons">
+          <button class="generate" type="button">Generate quote</button>
+          <button class="auto" type="button">Start auto-play</button>
+          <button class="stop" type="button">Stop auto-play</button>
+          <button class="copy" type="button" disabled>Copy quote</button>
+        </div>
+      </section>
+      <p class="auto-status" role="status" aria-live="polite">Ready</p>
+    </main>
     <script src="main.js"></script>
   </body>
 </html>

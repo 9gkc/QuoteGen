@@ -15,12 +15,15 @@ A sleek, dynamic web application that delivers a daily dose of inspiration. Feat
 
 ## 🚀 Key Features
 - **Manual Discovery**: Generate new quotes with a single click.
-- **Auto-Play Mode**: Sit back and enjoy a continuous stream of wisdom (refreshes every 2 seconds).
+- **Auto-Play Mode**: Sit back and enjoy a continuous stream of wisdom (refreshes every 2 seconds) with a reliable start/stop control.
+- **Copy Support**: Copy the current quote when the browser permits clipboard access.
 - **Responsive Design**: Optimized for all screen sizes with a minimalist aesthetic.
-- **Data-Driven**: Quotes are managed via a structured JSON source.
+- **Accessible Status**: Loading, error, and auto-play states are announced through a live region.
+- **Data-Driven**: Quotes are validated and cached from a structured JSON source.
 
 ## 🛠️ Installation & Usage
-1. Clone the repository: `git clone https://github.com/9gkc/random-quotes-generator.git`
-2. Open `index.html` in any modern browser.
+1. Clone the repository: `git clone https://github.com/9gkc/QuoteGen.git`
+2. Serve the project over HTTP (for example with any local static server) and open `index.html`; this allows the relative `quotes.json` request to work consistently.
+3. Use **Generate quote** for a single quote, **Start auto-play** or **Stop auto-play** for timed changes, and **Copy quote** to copy the current text when clipboard access is available.
 
 ---
